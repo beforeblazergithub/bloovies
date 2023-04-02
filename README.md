@@ -17,4 +17,4 @@ iframe {
 ```
 
 <h2>Example URL:</h2>
-<a href="https://goguardian.cloud">https://goguardian.cloud</a>
+<a href="https://bloovies.vercel.app/">https://bloovies.vercel.app/</a>

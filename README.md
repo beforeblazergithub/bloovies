@@ -6,7 +6,7 @@ This allows you to embed movies on to your google site or html5 site easily with
 <h2>Example Code:</h2>
 
 ```
-<iframe src="https://wxample.org/?movie=watch-puss-in-boots-the-last-wish-91342"></iframe>
+<iframe src="https://bloovies.com/?movie=watch-puss-in-boots-the-last-wish-91342"></iframe>
 <style>
 iframe {
     width: 100vw;

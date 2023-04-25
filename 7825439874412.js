@@ -12,7 +12,7 @@ document.getElementById('content').style.display = 'none'
 
    if (Hls.isSupported()) {
       var hls = new Hls();
-      fetch(`https://c.delusionz.xyz/movies/flixhq/watch?episodeId=${movieId}&mediaId=movie/${movieName}`).then(response => {return response.json();}).then(other => {
+      fetch(`https://api.consumet.org/movies/flixhq/watch?episodeId=${movieId}&mediaId=movie/${movieName}`).then(response => {return response.json();}).then(other => {
         hls.loadSource(other.sources[0].url);
       });
       hls.attachMedia(video);
